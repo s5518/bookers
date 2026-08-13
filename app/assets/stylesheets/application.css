@@ -28,13 +28,17 @@ body {
   padding: 5px;
  }
 
+ .successfully-text {
+  margin-left: 40px;
+ }
+
  .new-post p {
   margin-top: 10px;
   margin-bottom: 0px;
  }
  
  .submit-btn {
-  margin-top: 20px;
+  margin: 20px 0;
   border-radius: 5px;
   font-size: 13px;
   background-color: white;

@@ -1,4 +1,4 @@
-<div>
+<div class="successfully-text">
   <p style = "color: green;"><%= flash[:notice] %></p>
 </div>
 
@@ -27,6 +27,6 @@
   </div>
 <% end %>
 
-<%= link_to "Show", book_path(book.id), style: "color:black;" %>
+<%= link_to "Show", book_path(@book.id), style: "color:black;" %>
 <span> | </span>
 <%= link_to "Back", books_path , style: "color:black;" %>
