@@ -2,13 +2,17 @@
   <p style = "color: green;"><%= flash[:notice] %></p>
 </div>
 
-<p>
-  <strong>Title:</strong>
-  <%= @book.title %>
-</p>
-<p>
-  <strong>Body:</strong>
-  <%= @book.body %>
-</p>
+<div class="show-text">
+  <p>
+    <strong>Title:</strong>
+    <%= @book.title %>
+  </p>
+  <p>
+    <strong>Body:</strong>
+    <%= @book.body %>
+  </p>
+</div>
 
-<%= link_to "Edit", edit_book_path(@book.id) %>
+<%= link_to "Edit", edit_book_path(@book.id) , style: "color:black;" %>
+<span> | </span>
+<%= link_to "Back", books_path , style: "color:black;" %>

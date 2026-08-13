@@ -34,8 +34,34 @@ body {
  }
  
  .submit-btn {
+  margin-top: 20px;
   border-radius: 5px;
   font-size: 13px;
   background-color: white;
   border: 1px solid #cccccc;
+}
+
+.show-text {
+  margin-left: 40px;
+}
+
+.show-text p {
+  padding-bottom: 20px;
+}
+
+.edit-post p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.edit-input-title {
+  width: 180px;
+  height: 15px;
+  font-size: 13px;
+}
+
+.edit-input-body {
+  width: 200px;
+  height: 30px;
+  font-size: 13px;
 }
